@@ -4,7 +4,7 @@ public class BuiltInMethods {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="hi this is srinivas";
+		String str="SachinTendulkar";
 		int len=str.length();
 		System.out.println("length of str:"+len);
 		
@@ -17,22 +17,22 @@ public class BuiltInMethods {
 		System.out.println(str1);
 		
 		
-		boolean b=str.contains("hi");
+		boolean b=str.contains("sachin");
 		System.out.println(b);
 		b=str.contains("hii");
 		System.out.println(b);
 		
 		//endsWith()
-		boolean e= str.endsWith("srinivas");
+		boolean e= str.endsWith("sachintendulkar");
 		System.out.println(e);
 	
-		e= str.endsWith("srinu");
+		e= str.endsWith("sachin");
 		System.out.println(e);
 		
 		//startWith()
-		boolean s1= str.startsWith("hi");
+		boolean s1= str.startsWith("sachin");
 		System.out.println(s1);
-		s1= str.startsWith("srinivas");
+		s1= str.startsWith("Tendulkar");
 		System.out.println(s1);
 		
 		
